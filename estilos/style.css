@@ -20,6 +20,10 @@ body, html {
 }
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -27,8 +31,6 @@ main {
 
 section#login {
     position: absolute;
-    left: 50%;
-    top: 50%;
     overflow: hidden;
 
     background-color: white;
@@ -41,7 +43,6 @@ section#login {
     transition-timing-function: ease;
 
     
-    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
